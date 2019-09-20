@@ -3,3 +3,4 @@
 This project creates a set of processes, tools, and resources to streamline 
 the course development process at GPTE.
 * 0.0.2 - 2019-09-20 - Testing release shell script 
+* 0.0.3 - 2019-09-20 - Testing release shell script 
