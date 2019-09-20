@@ -28,7 +28,7 @@ git checkout -b Release ${NEW_TAG}
 
 # Edit README.adoc
 TODAY_DATE=$(date "+%Y-%m-%d")
-echo "* ${NEW_TAG} - ${TODAY_DATE} - " >> README.adoc
+printf "* ${NEW_TAG} - ${TODAY_DATE} - " >> README.adoc
 vim "+normal GA " +startinsert README.adoc
 
 # Commit and push the Release branch
@@ -37,7 +37,7 @@ git commit -m "Tag Release version ${NEW_TAG}R"
 git tag -a ${NEW_TAG}R -m "Tag Release version ${NEW_TAG}R"
 
 # Report and further instructions
-echo "You have successfully prepared your course for the next release."
-echo "Now go to Jenkins and build the course materials with the following parameters:"
-echo "BRANCH_NAME: Release"
-echo "RELEASE_TYPE: COURSE UPDATE (MINOR) or COURSE UPDATE (MAJOR)"
+printf "\n\nYou have successfully prepared your course for the next release.\n"
+printf "Now go to Jenkins and build the course materials with the following parameters:\n\n"
+printf "BRANCH_NAME: Release\n"
+printf "RELEASE_TYPE: COURSE UPDATE (MINOR) or COURSE UPDATE (MAJOR)\n"
