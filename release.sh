@@ -37,6 +37,9 @@ git add --all
 git commit -m "Tag Release version ${NEW_TAG}R"
 git tag -a ${NEW_TAG}R -m "Tag Release version ${NEW_TAG}R"
 
+# Back to master
+git checkout master
+
 # Report and further instructions
 echo "You have successfully prepared your course for the next release."
 echo "Now go to Jenkins and build the course materials with the following parameters:"
