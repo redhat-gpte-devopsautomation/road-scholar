@@ -24,6 +24,7 @@ git push -u origin master
 
 # Delete previous Release and create a new one
 git push origin --delete Release
+git branch -D Release
 git checkout -b Release ${NEW_TAG}
 
 # Edit README.adoc
