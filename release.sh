@@ -13,6 +13,7 @@ echo -n "Tag: "
 read NEW_TAG
 echo "New tag is: ${NEW_TAG}"
 
+git checkout master
 # Add and commit all
 echo "Tagging master version ${NEW_TAG}"
 git add --all
