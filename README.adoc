@@ -5,3 +5,4 @@ the course development process at GPTE.
 * 0.0.2 - 2019-09-20 - Testing release shell script 
 * 0.0.3 - 2019-09-20 - Testing release shell script 
 * 0.0.4 - 2019-09-20 - Testing 
+* 0.0.5 - 2019-09-20 - Testing 
