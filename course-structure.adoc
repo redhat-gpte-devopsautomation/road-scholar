@@ -1,0 +1,15 @@
+= Course Structure
+
+* datasheet.yaml
+* current course owner
+* course contributors
+* course update/release procedure for major/minor/patch releases
+* short description
+* long description
+* outline
+* instructor's guide
+* release notes
+* modules
+** slides
+** labs
+** lab solutions

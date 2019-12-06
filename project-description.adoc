@@ -10,64 +10,26 @@ This project will develop/organize a set of processes, tools, and resources to m
 
 This project covers internal GPTE processes and tools, including: course development and release processes, integration with the LMSes (internal and partner), Train-the-Trainer programs.
 
-== Simplify and Standardize Course Development
+== Project Components
+
+=== Simplify and Standardize Course Development
 
 * Course structure, template, author's guide
 * Course deployment framework (homeroom/Jupyter)
 * Course QA process
 
 
-== Fine-tune Course Release Process
+=== Fine-tune Course Release Process
 * Roadmap based on the feedback from stakeholders
 * Scheduled, predictable releases 
 * Measurable/planned effort
 * Course lifecycle support: plan, develop, pilot, release, update, support, retire
 
 
-== Integrate with LMS
+=== Integrate with LMS
 * Course < - > Learning Path; cross-pollination 
 * Competency Models < - > Accreditation Profiles
 * Automate (some) tasks (e.g. datasheet)
-
-== Versioning
-
-=== MAJOR (X in X.y.z):
-* Switch to a new major version of the product (e.g. OCP3 -> OCP4)
-* 0.y.z version means the course is in development/pilot phase
-
-=== MINOR (Y in x.Y.z):
-* Switch to a new minor version of the product (4.1 -> 4.2)
-* Add/remove modules
-* Add/remove exercises in modules
-* Add/remove more than 3(?) slides or paragraphs in a module
-* Stylesheet change (colors, fonts, logos)
-* Add/remove/change pictures in the slides
-
-=== PATCH (Z in x.y.Z):
-* Grammar/style/typo fixes in text and commands
-
-=== PRE-RELEASE (ABC in x.y.z-ABC):
-* Test version (e.g. test builds in Jenkins)
-
-== Release procedure
-
-=== Major version change
-. Release planning: dates, roles
-.. At least half of the team should participate
-. Course development
-. Full QA of the course by at least two team members 
-. Train-The-Trainer session for all trainers
-
-=== Minor version change
-. Release planning: dates, roles
-. At least two team members discuss the planned changes
-. Module / lab /exercise development 
-. QA / feedback by at least one team member
-. Fixes / changes based on feedback
-. TTT sessions between the author and trainers who deliver this course in the upcoming 2 months
-
-=== Patch
-
 
 
 
@@ -90,6 +52,8 @@ Process from Upstream Lab to Production ILT/ELT Module (Sha & WK): https://docs.
 Asciidoc toolchain used by GLS: https://mojo.redhat.com/docs/DOC-1207111
 
 Git Flow vs Trunk-based development: https://www.toptal.com/software/trunk-based-development-git-flow (short and clean overview with pros and cons)
+
+Red Hat's Asciidoc markup conventions: https://redhat-documentation.github.io/asciidoc-markup-conventions/
 
 
 == Course Development

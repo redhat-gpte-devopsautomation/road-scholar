@@ -9,7 +9,7 @@ git tag -l
 # Ask a user for the tag to use
 printf "Set tag for this release. Hint: use Semantic Versioning.\n"
 printf "MAJOR: X.y.z, MINOR: x.Y.z, PATCH: x.y.Z\n"
-printf -n "Tag: "
+printf "Tag: "
 read NEW_TAG
 printf "New tag is: ${NEW_TAG}\n\n"
 

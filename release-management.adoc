@@ -1,0 +1,48 @@
+= Course Release Management
+.Project Road Scholar
+
+
+== Versioning
+
+=== MAJOR (X in X.y.z):
+* Switch to a new major version of the product (e.g. OCP3 -> OCP4)
+* 0.y.z version means the course is in development/pilot phase
+
+=== MINOR (Y in x.Y.z):
+* Switch to a new minor version of the product (4.1 -> 4.2)
+* Add/remove modules
+* Add/remove exercises in modules
+* Add/remove more than 3(?) slides or paragraphs in a module
+* Stylesheet change (colors, fonts, logos)
+* Add/remove/change pictures in the slides
+
+=== PATCH (Z in x.y.Z):
+* Grammar/style/typo fixes in text and commands
+* Fix, not enhancement
+
+=== PRE-RELEASE (ABC in x.y.z-ABC):
+* Test version (e.g. test builds in Jenkins)
+
+== Release procedure
+
+=== Major version change
+. Release planning: dates, roles
+.. At least half of the course development team should participate
+. Course development
+. Full QA of the course by at least two team members 
+. Train-The-Trainer session for all trainers
+
+=== Minor version change
+. Release planning: dates, roles
+. At least two team members discuss the planned changes
+. Module / lab /exercise development 
+. QA / feedback by at least one team member
+. Fixes / changes based on feedback
+. TTT sessions between the author and trainers who deliver this course in the upcoming 2 months
+
+=== Patch
+
+. Fix by one of the course authors in a separate branch
+. Create a PR
+. The PR is approved by one of the course authors
+
