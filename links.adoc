@@ -9,3 +9,40 @@ https://asciidoctor.org/docs/asciidoc-recommended-practices/
 === Road Scholar project at Google Drive
 
 https://drive.google.com/open?id=1Zi8ZAusc1-_YKcUTm19vLCkNZ8iwd8IF
+
+=== Semantic versioning 
+
+https://semver.org/
+
+=== Keep a Changelog 
+
+https://keepachangelog.com/en/1.0.0/
+
+=== Trunk-based development 
+
+https://trunkbaseddevelopment.com/
+
+=== Minor Course Updates (by Randy) 
+
+https://docs.google.com/document/d/1VcxYiAeX7-Ytfl-Hun-sbGWzNHo7EtjAgEr_A3s8aH8/edit#heading=h.dmitvv1qolkk
+
+=== GPTE - Content/Program Review & Lifecycle (by Dana Lorichon) 
+
+https://docs.google.com/document/d/1TxN2UsUVj2-6fxdzcv2VJJOuhDImywREgIMHric-IiU/edit
+
+=== Process from Upstream Lab to Production ILT/ELT Module (Sha & WK) 
+
+https://docs.google.com/document/d/1K95e9YzN-8A2rRAHha_lixRts35qfdJoxQb3j-lKK2E/edit#heading=h.64lxad8zqe8w
+
+=== Asciidoc toolchain used by GLS 
+
+https://mojo.redhat.com/docs/DOC-1207111
+
+=== Content Developer and Peer Reviewer Checklist 
+
+https://mojo.redhat.com/docs/DOC-1145011
+
+=== Pull Requests Policy at Github 
+
+https://help.github.com/en/github/administering-a-repository/defining-the-mergeability-of-pull-requests
+
