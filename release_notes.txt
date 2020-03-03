@@ -1,0 +1,10 @@
+—————————————————————————————————— \n
+Minor Release \n
+September 19, 2019 \n 
+version 3.1.0 \n
+OpenShift 4 Advanced Infrastructure Deployment \n
+courseID: 
+Lab Environment: OPENTLC Lab Portal: Services → Catalogs → All Services → OPENTLC OpenShift 4 Labs → OpenShift 4 Installation Lab \n
+Add OCP4-based Homework Assignment  \n
+—————————————————————————————————— \n
+
