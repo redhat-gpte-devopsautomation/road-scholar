@@ -1,3 +1,11 @@
 === O'Reilly: Writing in Asciidoc
 
 http://docs.atlas.oreilly.com/writing_in_asciidoc.html
+
+=== Asciidoc Recommended Practices
+
+https://asciidoctor.org/docs/asciidoc-recommended-practices/
+
+=== Road Scholar project at Google Drive
+
+https://drive.google.com/open?id=1Zi8ZAusc1-_YKcUTm19vLCkNZ8iwd8IF
